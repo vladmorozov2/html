@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Graphik"; /* Give your font a name */
+  src: url("fonts/Graphik-Light-Trial.otf") format("opentype"); /* Specify the path to your .otf font file */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  font-family: "Graphik";
+}
+
+.test {
+  background-color: blue;
+}
+header {
+  background-color: brown;
+}
+nav {
+  position: relative;
+  background-image: url("images/nav-background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  clip-path: polygon(0% 0%, 0% 75%, 50% 100%, 100% 75%, 100% 0%);
+  display: flex;
+  height: 300px;
+  flex-direction: row;
+  flex-wrap: wrap;
+ 
+
+}
+ul {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  display: inline-flex;
+  align-items: center;
+  gap: 21px;
+ 
+}
+li {
+  list-style: none;
+}
+img {
+  width: 100px;
+}
+svg {
+  width: 20.987px;
+  height: 40.987px;
+}
+
+.asd1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+}
+
+.asd {
+  text-align: center;
+}
+
+
+

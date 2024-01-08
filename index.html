@@ -1,18 +1,303 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
-</head>
-<body>
-    <header><h1>Cat photo)</h1>
-        <img src="img/418.jpg" alt="Cute cat">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My site</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <div id="polygon">
+        <nav>
+          <div class="asd1">
+            <ul id="first-ul">
+              <li>Home</li>
+              <li>Product</li>
+              <li>Pricing</li>
+              <li>About</li>
+              <li>Contact</li>
+              <li><img src="images/logo.png" alt="logo-image" id="logo" /></li>
+            </ul>
+            <ul>
+              <li class="second-ul">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="42"
+                  height="42"
+                  viewBox="0 0 42 42"
+                  fill="none"
+                >
+                  <path
+                    d="M37.6845 10.6854C36.4597 11.2137 35.1269 11.5939 33.754 11.742C35.1793 10.8952 36.2467 9.55742 36.7559 7.9796C35.4184 8.77527 33.9531 9.33321 32.4251 9.62867C31.7865 8.94593 31.0141 8.40203 30.156 8.03086C29.298 7.65969 28.3727 7.4692 27.4379 7.47127C23.6554 7.47127 20.6134 10.5373 20.6134 14.2997C20.6134 14.828 20.6775 15.3564 20.7815 15.8647C15.1179 15.5685 10.0666 12.8628 6.70842 8.72008C6.09652 9.76522 5.77587 10.9552 5.77981 12.1663C5.77981 14.5359 6.9846 16.6252 8.82179 17.854C7.7391 17.8114 6.68177 17.5138 5.73579 16.9854V17.0695C5.73579 20.3876 8.08131 23.1374 11.2073 23.7698C10.6204 23.9223 10.0166 24.0003 9.41017 24.002C8.96588 24.002 8.54561 23.958 8.12133 23.8979C8.98589 26.6037 11.5035 28.569 14.5015 28.633C12.156 30.4702 9.21805 31.5509 6.02798 31.5509C5.4556 31.5509 4.92726 31.5309 4.37891 31.4668C7.40487 33.4081 10.9952 34.5288 14.8617 34.5288C27.4139 34.5288 34.2823 24.1301 34.2823 15.1042C34.2823 14.808 34.2823 14.5118 34.2623 14.2156C35.5912 13.243 36.7559 12.0382 37.6845 10.6854Z"
+                    fill="white"
+                  />
+                </svg>
+              </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="42"
+                  height="42"
+                  viewBox="0 0 42 42"
+                  fill="none"
+                >
+                  <path
+                    d="M35.7517 4.98962H6.29255C5.58409 4.98962 5.01172 5.562 5.01172 6.27046V35.7296C5.01172 36.438 5.58409 37.0104 6.29255 37.0104H35.7517C36.4601 37.0104 37.0325 36.438 37.0325 35.7296V6.27046C37.0325 5.562 36.4601 4.98962 35.7517 4.98962ZM32.0533 14.3357H29.4956C27.4903 14.3357 27.1021 15.2883 27.1021 16.6892V19.7752H31.8892L31.2648 24.6064H27.1021V37.0104H22.1108V24.6104H17.9361V19.7752H22.1108V16.2129C22.1108 12.0782 24.6365 9.82476 28.3268 9.82476C30.096 9.82476 31.613 9.95685 32.0573 10.0169V14.3357H32.0533Z"
+                    fill="white"
+                  />
+                </svg>
+              </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="42"
+                  height="42"
+                  viewBox="0 0 42 42"
+                  fill="none"
+                >
+                  <path
+                    d="M35.736 4.98962H6.27692C5.56847 4.98962 4.99609 5.562 4.99609 6.27046V35.7296C4.99609 36.438 5.56847 37.0104 6.27692 37.0104H35.736C36.4445 37.0104 37.0169 36.438 37.0169 35.7296V6.27046C37.0169 5.562 36.4445 4.98962 35.736 4.98962ZM14.4943 32.2753H9.74317V16.9934H14.4943V32.2753ZM12.1207 14.9041C11.5761 14.9041 11.0437 14.7425 10.5908 14.44C10.1379 14.1374 9.78498 13.7073 9.57655 13.2041C9.36812 12.7009 9.31359 12.1472 9.41984 11.613C9.5261 11.0789 9.78837 10.5882 10.1735 10.203C10.5586 9.81792 11.0493 9.55565 11.5835 9.4494C12.1177 9.34314 12.6714 9.39768 13.1745 9.6061C13.6777 9.81453 14.1078 10.1675 14.4104 10.6203C14.713 11.0732 14.8745 11.6056 14.8745 12.1503C14.8705 13.6713 13.6377 14.9041 12.1207 14.9041ZM32.2818 32.2753H27.5347V24.8425C27.5347 23.0694 27.5027 20.7919 25.0651 20.7919C22.5955 20.7919 22.2153 22.7211 22.2153 24.7144V32.2753H17.4722V16.9934H22.0271V19.0828H22.0912C22.7236 17.882 24.2726 16.6132 26.5861 16.6132C31.3972 16.6132 32.2818 19.7792 32.2818 23.8939V32.2753Z"
+                    fill="white"
+                  />
+                </svg>
+              </li>
+            </ul>
+          </div>
+          <div class="asd">
+            <h1>The best products start with Figma</h1>
+            <p>
+              Most calendars are designed for teams.Slate is designed for
+              freelancers
+            </p>
+            <button>Try For Free</button>
+          </div>
+        </nav>
+      </div>
     </header>
-    
+    <main>
+      <section class="test">
+        <div>Features</div>
+        <p>
+          Most calendars are designed for teams. Slate is designed for
+          freelancers
+        </p>
+        <div>
+          <img src="" alt="" />
+          <h3>OpenType features Variable fonts</h3>
+          <p>
+            Slate helps you see how many more days you need to work to reach
+            your financial goal
+          </p>
+        </div>
+        <div>
+          <img src="" alt="" />
+          <h3>Design with real data</h3>
+          <p>
+            Slate helps you see how many more days you need to work to reach
+            your financial goal
+          </p>
+        </div>
+        <div>
+          <img src="" alt="" />
+          <h3>Fastest way to take actions</h3>
+          <p>
+            Slate helps you see how many more days you need to work to reach
+            your financial goal
+          </p>
+        </div>
+        <div>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/LuzOKmcW7BQ?si=9EM488CWMaA5l_kf"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <section>
+        <div>
+          <div>
+            <h3>The fastest way to organize</h3>
+            <p>
+              Most calendars are designed for teams. Slate is designed for
+              freelancers
+            </p>
+            <button>Try for free</button>
+          </div>
+          <img src="" alt="" />
+        </div>
+        <div>
+          <img src="" alt="" />
+          <div>
+            <h6>At your fingertips</h6>
+            <h3>Lightning fast prototyping</h3>
+            <form action="">
+              <label for="email">
+                <h6>Subscribe to our Newsletter</h6>
+                <p>Available exclusivery of Figmaland</p>
+              </label>
+              <input type="text" placeholder="Your Email" id="email" />
+              <button>Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h3>Partners</h3>
+          <p>
+            Most calendars are designed for teams. Slate is designed for
+            freelancers
+          </p>
+        </div>
+        <div>
+          <img src="" alt="" /><img src="" alt="" /><img src="" alt="" /><img
+            src=""
+            alt=""
+          /><img src="" alt="" /><img src="" alt="" /><img src="" alt="" /><img
+            src=""
+            alt=""
+          />
+        </div>
+      </section>
+      <section>
+        <h3>Testimonials</h3>
+        <img src="" alt="" />
+        <p>
+          Most calendars are designed for teams. Slate is designed for
+          freelancers who wants a simple way to plan their schedule.
+        </p>
+        <div>
+          <img src="" alt="" />
+          <p>Organize across</p>
+          <p>Ui designer</p>
+        </div>
+        <button>More Testimonials</button>
+      </section>
 
-    <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
-</body>
+      <section>
+        <h3>Pricing</h3>
+        <p>
+          Most calendars are designed for teams. Slate is designed for
+          freelancers
+        </p>
+        <div>
+          <h4>FREE</h4>
+          <p>Organize across all apps by hand</p>
+          <div>
+            <h5>0$</h5>
+            <p>Per Month</p>
+          </div>
+          <p>Pricing Feature</p>
+          <p>Pricing Feature</p>
+          <p>Pricing Feature</p>
+          <p>Pricing Feature</p>
+          <p>Pricing Feature</p>
+          <button>Order Now</button>
+        </div>
+        <div>
+          <h4>STANDARD</h4>
+          <p>Organize across all apps by hand</p>
+          <div>
+            <h5>10$</h5>
+            <p>Per Month</p>
+          </div>
+          <p>Pricing Feature</p>
+          <p>Pricing Feature</p>
+          <p>Pricing Feature</p>
+          <p>Pricing Feature</p>
+          <p>Pricing Feature</p>
+          <button>Order Now</button>
+        </div>
+        <div>
+          <h4>BUSINESS</h4>
+          <p>Organize across all apps by hand</p>
+          <div>
+            <h5>99$</h5>
+            <p>Per Month</p>
+          </div>
+          <p>Pricing Feature</p>
+          <p>Pricing Feature</p>
+          <p>Pricing Feature</p>
+          <p>Pricing Feature</p>
+          <p>Pricing Feature</p>
+          <button>Order Now</button>
+        </div>
+      </section>
+      <section>
+        <h3>Contact us</h3>
+        <p>
+          Most calendars are designed for teams. Slate is designed for
+          freelancers
+        </p>
+        <form action="">
+          <h4>Contact Us</h4>
+          <input type="text" name="" id="" placeholder="Your Name" />
+          <input type="text" name="" id="" placeholder="Your Email" />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+          ></textarea>
+        </form>
+        <div>
+          <img src="" alt="" />
+          <p>6386 Spring St underfined Anchorage,Georgia 12473 United States</p>
+          <img src="" alt="" />
+          <p>(843) 555-0130</p>
+          <img src="" alt="" />
+          <p>willie.jennings@example.com</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d182321.81885873654!2d25.929829447954923!3d44.43770725734026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1f93abf3cad4f%3A0xac0632e37c9ca628!2sBucharest%2C%20Romania!5e0!3m2!1sen!2sua!4v1704736661607!5m2!1sen!2sua"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <img src="" alt="" /><img src="" alt="" /><img src="" alt="" />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <h4>Pages</h4>
+        <p>Home</p>
+        <p>Product</p>
+        <p>Pricing</p>
+        <p>About</p>
+        <p>Contact</p>
+      </div>
+      <div>
+        <h4>Tomothy</h4>
+        <p>Eleanor Edwards</p>
+        <p>Ted Robertson</p>
+        <p>Annette Russell</p>
+        <p>Jennie Mckinney</p>
+        <p>Gloria Richards</p>
+      </div>
+      <div>
+        <h4>Jane Black</h4>
+        <p>Philip Jones</p>
+        <p>Product</p>
+        <p>Colleen Russell</p>
+        <p>Marvin Hawkins</p>
+        <p>Bruce Simmmons</p>
+      </div>
+      <div>
+        <img src="" alt="" />
+        <p>7480 Mockingbird Hill underfined</p>
+        <img src="" alt="" />
+        <p>(239) 555-0130</p>
+        <img src="" alt="" /><img src="" alt="" /><img src="" alt="" />
+      </div>
+    </footer>
+  </body>
 </html>
